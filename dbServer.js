@@ -19,7 +19,13 @@ const db = mysql.createPool({
     port: DB_PORT                // Port number, the default value is used.
 })
 
+const port = process.env.PORT
+
+app.listen(port,
+    ()=> console.log(`Server Started on port ${port}`))
+
 db.getConnection( (err, connection) => {
-    if (err) throw (err)
-    console.log("DB connected successful: "+connection.threadId)
+    process.on('uncaughtException',function(err){
+        console.log(err);
+    })
 })
