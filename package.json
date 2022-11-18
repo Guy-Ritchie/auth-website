@@ -1,0 +1,28 @@
+{
+  "name": "auth-website",
+  "version": "1.0.0",
+  "description": "This will be a very minimalistic login system for a webpage with nodejs, express as the server and authentication frameworks, while having MySql as the DB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guy-Ritchie/auth-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guy-Ritchie/auth-website/issues"
+  },
+  "homepage": "https://github.com/Guy-Ritchie/auth-website#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
