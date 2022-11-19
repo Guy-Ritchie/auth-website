@@ -1,0 +1,24 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Login fullStack app",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guy-Ritchie/auth-website.git"
+  },
+  "author": "Sreejith27",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guy-Ritchie/auth-website/issues"
+  },
+  "homepage": "https://github.com/Guy-Ritchie/auth-website#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1"
+  }
+}
