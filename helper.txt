@@ -1,0 +1,1 @@
+This will be a helper document that I will be using to elaborately explain and document this project, and will also serve as a helping hand when I decide to write my refined README doc.
